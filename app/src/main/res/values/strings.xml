@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Cubo</string>
+    <string name="frente_del_cubo">Frente del cubo</string>
+    <string name="arriba_del_cubo">Arriba del cubo</string>
+    <string name="costado_del_cubo">Costado del cubo</string>
 </resources>
