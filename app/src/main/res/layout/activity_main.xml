@@ -6,13 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+
+    <ImageView
+        android:id="@+id/front"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginEnd="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frente_azul"
+        android:contentDescription="@string/frente_del_cubo"/>
 
+    <ImageView
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/arriba_azul"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="257dp"
+        app:layout_constraintBottom_toTopOf="@id/front"
+        app:layout_constraintStart_toStartOf="@id/front"
+        android:contentDescription="@string/arriba_del_cubo"/>
+
+    <ImageView
+        android:id="@+id/side"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/costado_azul"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="257dp"
+        app:layout_constraintStart_toEndOf="@id/front"
+        app:layout_constraintBottom_toBottomOf="@id/front"
+        android:contentDescription="@string/costado_del_cubo"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
