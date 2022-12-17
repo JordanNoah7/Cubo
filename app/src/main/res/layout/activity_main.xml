@@ -16,14 +16,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/frente_azul"
+        app:srcCompat="@drawable/frente_celeste"
         android:contentDescription="@string/frente_del_cubo"/>
 
     <ImageView
         android:id="@+id/top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/arriba_azul"
+        app:srcCompat="@drawable/arriba_amarillo"
         tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="257dp"
         app:layout_constraintBottom_toTopOf="@id/front"
@@ -34,7 +34,7 @@
         android:id="@+id/side"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/costado_azul"
+        app:srcCompat="@drawable/costado_rojo"
         tools:layout_editor_absoluteX="196dp"
         tools:layout_editor_absoluteY="257dp"
         app:layout_constraintStart_toEndOf="@id/front"
