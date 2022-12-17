@@ -40,4 +40,12 @@
         app:layout_constraintStart_toEndOf="@id/front"
         app:layout_constraintBottom_toBottomOf="@id/front"
         android:contentDescription="@string/costado_del_cubo"/>
+
+    <!--ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/flecha_izquierda"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="170dp" /-->
 </androidx.constraintlayout.widget.ConstraintLayout>
