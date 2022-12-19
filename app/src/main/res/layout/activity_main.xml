@@ -54,7 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/arrow_top"
         app:layout_constraintBottom_toTopOf="@id/arrow_left"
-        android:contentDescription="@string/flecha_superior_izquierda" />
+        android:contentDescription="@string/flecha_superior_izquierda"/>
 
     <ImageButton
         android:id="@+id/arrow_top"
