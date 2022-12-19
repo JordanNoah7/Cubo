@@ -3,4 +3,10 @@
     <string name="frente_del_cubo">Frente del cubo</string>
     <string name="arriba_del_cubo">Arriba del cubo</string>
     <string name="costado_del_cubo">Costado del cubo</string>
+    <string name="flecha_superior_izquierda">Flecha superior izquierda</string>
+    <string name="flecha_superior">Flecha_superior</string>
+    <string name="flecha_izquierda">Flecha izquierda</string>
+    <string name="flecha_derecha">Flecha derecha</string>
+    <string name="flecha_inferior">Flecha inferior</string>
+    <string name="flecha_inferior_derecha">Flecha inferior derecha</string>
 </resources>
